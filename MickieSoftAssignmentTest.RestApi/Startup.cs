@@ -35,9 +35,17 @@ namespace MickieSoftAssignmentTest.RestApi
                 options.BaseAddress = new Uri("https://localhost:5001");
             });
             services.AddControllers();
-            services.AddSwaggerGen(c =>
+            /*services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MickieSoftAssignmentTest.RestApi", Version = "v1" });
+            });*/
+            services.AddSwaggerGen(config =>
+            {
+                config.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "MickiesoftApi",
+                    Version = "v1"
+                });
             });
 
             services.AddDbContext<MickieSoftTestDbContext>(options =>

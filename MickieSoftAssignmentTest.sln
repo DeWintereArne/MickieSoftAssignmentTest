@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickieSoftAssignmentTest.Ui", "MickieSoftAssignmentTest\MickieSoftAssignmentTest.Ui.csproj", "{5D1D8FCA-9771-4C0B-8F49-9767944BBC1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MickieSoftAssignmentTest.Ui", "MickieSoftAssignmentTest\MickieSoftAssignmentTest.Ui.csproj", "{5D1D8FCA-9771-4C0B-8F49-9767944BBC1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickieSoftAssignmentTest.Data", "MickieSoftAssignmentTest.Data\MickieSoftAssignmentTest.Data.csproj", "{02232782-FAB0-417D-A312-8A868637C1E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MickieSoftAssignmentTest.Data", "MickieSoftAssignmentTest.Data\MickieSoftAssignmentTest.Data.csproj", "{02232782-FAB0-417D-A312-8A868637C1E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickieSoftAssignmentTest.Model", "MickieSoftAssignmentTest.Model\MickieSoftAssignmentTest.Model.csproj", "{625F43F2-5448-42D9-9149-C0EBCB5FAC93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MickieSoftAssignmentTest.Model", "MickieSoftAssignmentTest.Model\MickieSoftAssignmentTest.Model.csproj", "{625F43F2-5448-42D9-9149-C0EBCB5FAC93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickieSoftAssignmentTest.Services", "MickieSoftAssignmentTest.Services\MickieSoftAssignmentTest.Services.csproj", "{1F37F24A-DB6C-4DFE-9B67-2DC76380FCA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MickieSoftAssignmentTest.Services", "MickieSoftAssignmentTest.Services\MickieSoftAssignmentTest.Services.csproj", "{1F37F24A-DB6C-4DFE-9B67-2DC76380FCA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickieSoftAssignmentTest.RestApi", "MickieSoftAssignmentTest.RestApi\MickieSoftAssignmentTest.RestApi.csproj", "{CAA0D67E-F75C-4B5A-9BAF-F9987B4EEBB0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickieSoftAssignmentTest.Sdk", "MickieSoftAssignmentTest.Sdk\MickieSoftAssignmentTest.Sdk.csproj", "{0C9E6DA2-483F-4C99-AC4E-5998AA85BDC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MickieSoftAssignmentTest.RestApi", "MickieSoftAssignmentTest.RestApi\MickieSoftAssignmentTest.RestApi.csproj", "{CAA0D67E-F75C-4B5A-9BAF-F9987B4EEBB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{CAA0D67E-F75C-4B5A-9BAF-F9987B4EEBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA0D67E-F75C-4B5A-9BAF-F9987B4EEBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA0D67E-F75C-4B5A-9BAF-F9987B4EEBB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C9E6DA2-483F-4C99-AC4E-5998AA85BDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C9E6DA2-483F-4C99-AC4E-5998AA85BDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C9E6DA2-483F-4C99-AC4E-5998AA85BDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C9E6DA2-483F-4C99-AC4E-5998AA85BDC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
